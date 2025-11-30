@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#salamx
+ifconfig | grep "inet " | awk '{print $2}'
