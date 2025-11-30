@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displays all listening TCP/UDP and UNIX ports with the program names
+
+sudo netstat -tunlp
+sudo netstat -lxnp
